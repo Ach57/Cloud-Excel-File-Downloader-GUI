@@ -1,0 +1,8 @@
+requests
+gspread
+pandas
+google_drive_downloader
+pydrive
+Pillow
+matplotlib
+tkinter
