@@ -1,31 +1,14 @@
-# Downloading-Application
-Overview
-The Downloading Application creates a desktop application that interacts with a Google Spreadsheet to download images and organize them into folders based on order IDs. The program requires specific images for its interface, and the paths to these images can be customized by the user.
+# Cloud Excel File Downloader GUI
 
-Description
-This program utilizes Google Sheets API to access a Google Spreadsheet containing URLs of images. It then downloads these images and organizes them into folders named after the order IDs. The program provides a user-friendly interface and requires certain images for its graphical elements.
+This is a graphical user interface (GUI) designed to connect to a cloud-based Excel file, retrieve file links from the document, and download the linked files in an organized manner. The Excel file must adhere to a specific structure for the program to function correctly.
 
-Functionality
-Google Spreadsheet Integration: The application connects to a Google Spreadsheet to retrieve URLs of images.
-Image Downloading: It downloads images from the URLs obtained from the spreadsheet.
-Folder Creation: Folders are created on the local system, named after the order IDs, and images are stored within these folders.
-Customizable Image Paths: Users can customize the paths to the images used in the application's interface.
+## Features
 
-Dependencies
-gspread: Python API for Google Sheets
-tkinter: GUI toolkit for Python
-os: Operating system module for file operations
-PIL: Python Imaging Library for image processing
+- Connects to a cloud Excel file.
+-Retrieves links of files from the Excel sheet.
+-Downloads the linked files and saves them in an organized folder structure.
+-Offers an intuitive interface for users to manage and download the files easily.
 
-Customizable Image Paths
-The following images are used in the application's interface, and their paths can be customized by the user:
+## Installation
 
-downloadIcon: Icon used for downloading actions.
-JpgLogo: Logo image.
-SubmitIcon: Icon for submission actions.
-DeleteIcon: Icon for deletion actions.
-StatusIcon: Icon indicating status.
-
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
+### Prerequisites
