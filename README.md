@@ -38,6 +38,7 @@ Before running this GUI, ensure that you have the following installed on your ma
 
 ### Sample Display:
 
+<img width="806" alt="Screenshot 2024-12-25 at 3 05 06 PM" src="https://github.com/user-attachments/assets/db8d2ebe-7d63-4488-85d7-d9808abe1eaa" />
 
 
 
