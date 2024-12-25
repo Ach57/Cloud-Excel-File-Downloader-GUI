@@ -15,7 +15,6 @@ PIL: For image handling.
 datetime: For managing date-related functionality.
 matplotlib: For data visualization (if needed).
 tkinter.filedialog: For selecting directories using a file dialog.
-python
-Copy code
+
 
 '''
